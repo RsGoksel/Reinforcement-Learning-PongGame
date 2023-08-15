@@ -1,0 +1,5 @@
+shimmy >= 1.2.1
+stable_baselines3
+gym
+pygame
+numpy
