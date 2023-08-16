@@ -13,7 +13,7 @@ ____________________________________________________________
   In this repository, the agent is being trained as if the current state is closer to the ball than the previous state, and the reward mechanism scores and reinforces the agent accordingly.
 
 
-This model "Beast" trained like this approach. 
+This model "Beast" trained by this approach. 
 
 https://github.com/RsGoksel/PPO_Optimization_PongGame/assets/80707238/bd752882-3c93-4859-bb2f-18c769714ad0
 
