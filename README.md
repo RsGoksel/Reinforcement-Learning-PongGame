@@ -27,7 +27,7 @@ Observation array was:
 * Ball_Velocity
   
 ### 💨 _**Action Space:**_ 💨 
-Action space was discrete(3). It means there is certain 3 moves the Agent has to do. __Rise Up__, __hold__ and __get down__.
+Action space was discrete(3). It means there is certain 3 moves the Agent has to do. *__Rise Up, hold and get down__*.
 ________________________________________________________________________________________________________________
 
 # Usage
