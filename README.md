@@ -27,17 +27,17 @@ Observation array was:
 * Ball_Velocity
   
 ### 💨 _**Action Space:**_ 💨 
-Action space was discrete(3). It means there is certain 3 moves the Agent has to do. Rise Up, hold and get down.
+Action space was discrete(3). It means there is certain 3 moves the Agent has to do. __Rise Up__, __hold__ and __get down__.
 ________________________________________________________________________________________________________________
 
 # Usage
 
-* 🎲 test.py   :  Testing for the environment. You can display how game screen is.
-* ⌛ train.py  :  Trains the Agent. You can change total_steps from Constants.py. Check it out
-* 👻 Agent.py  :  Padlde & Agent class.
-* 💪 evaluate.py  :  If you have any trained model, you can evaluate it with this file. Detailed usage is down below. 
-* 🏠 Env.py       :  Environment class. You can alter the game rules, Reward mechanism and what ever you want.
-* 🔧 Constants.py : Stable variables of the Game. Screen width, hyperparameters etc. 
+* 🎲 [test.py](https://github.com/RsGoksel/Train-PPO-Agent_PongGame/blob/main/test.py): Testing for the environment. You can display how game screen is.
+* ⌛ [train.py](https://github.com/RsGoksel/Train-PPO-Agent_PongGame/blob/main/train.py): Trains the Agent. You can change total_steps from Constants.py. Check it out
+* 🤖 [Agent.py](https://github.com/RsGoksel/Train-PPO-Agent_PongGame/blob/main/Agent.py): Padlde & Agent class.
+* 🦾 [evaluate.py](https://github.com/RsGoksel/Train-PPO-Agent_PongGame/blob/main/evaluate.py): If you have any trained model, you can evaluate it with this file. Detailed usage is down below. 
+* 🏠 [Env.py](https://github.com/RsGoksel/Train-PPO-Agent_PongGame/blob/main/Env.py)       :  Environment class. You can alter the game rules, Reward mechanism and what ever you want.
+* 🔧 [Constants.py](https://github.com/RsGoksel/Train-PPO-Agent_PongGame/blob/main/Constants.py) : Stable variables of the Game. Screen width, hyperparameters etc. 
 ________________________________________________________________________________________________________________
 
 
@@ -59,7 +59,7 @@ $ python train.py
 ```
 
 ## Evalute your model 💯
-! After the training, your model will be saved in 'models' file. Evaluate it with: (Do not forget to add model path)
+! After the training, your model will be saved in 'models' file. Evaluate it with append model path with --model parameter:
 ``` 
 $ python evaluate.py --model models/yourmodel
 ```
