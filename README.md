@@ -59,9 +59,15 @@ $ python train.py
 ```
 
 ## Evalute your model 💯
-! After the training, your model will be saved in 'models' file. Evaluate it with append model path with --model parameter:
+! After the training, your model will be saved in 'models' file. 
+Evaluate your trained model with adding --model parameter to terminal,
+Or use pretrained models Which in __*models*__ folder. 
 ``` 
 $ python evaluate.py --model models/yourmodel
+```
+Utilizing a 200-step trained model:
+``` 
+$ python evaluate.py --model models/200k
 ```
 
 
