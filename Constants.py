@@ -21,7 +21,7 @@ max_grad_norm  = 0.5
 total_timesteps = 50000
 
 # Model Configure 
-Model_Save_Path = "./Models/" + str(int(total_timesteps/1000)) + "k.zip"  
+Model_Save_Path = "./models/" + str(int(total_timesteps/1000)) + "k.zip"  
 # Indicates the model path which will save after the training, 
 
 tensorboard_log = "./Pong_Log/"
