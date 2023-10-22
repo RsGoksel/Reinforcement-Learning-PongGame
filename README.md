@@ -13,9 +13,9 @@ ________________________________________________________________________________
 
 ### 💯 _**Reward:**_ 💯
  Reward has been assigned as the distance between the Ball and Agent. Reward mechanism is:
-* Ball coming out - score, 
-* Ball hitting the agent + score, 
-* Agent coming closer to the ball + score
+* If the Ball goes out -> - score, 
+* If Agent hits the Ball -> + score, 
+* If Agent gets closer to the ball (y coordinates) -> + score
 
 ### 🔭 _**Observation Space:**_  👁️  
 Observation array:
