@@ -1,5 +1,5 @@
-# PPO PongGame
-Reinforcement Learning - PPO (Proximal Policy Optimization) Implementation to Pong Game 
+
+# Implementing Proximal Policy Optimization (PPO) for Reinforcement Learning in the Pong Game
 
 ## 🌟 _**Problem & Environment**_ 🌟 
 The Pong game was discussed for the PPO solution example as problem. A2C and DQN can also be used if requested. It can be switch from train.py file. 
