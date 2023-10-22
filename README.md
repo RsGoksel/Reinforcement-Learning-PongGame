@@ -1,15 +1,15 @@
-# PPO_Optimization_PongGame
+# PPO PongGame
 Reinforcement Learning - PPO (Proximal Policy Optimization) Implementation to Pong Game 
 
+## 🌟 _**Problem & Environment**_ 🌟 
+The Pong game was discussed for the PPO solution example as problem. A2C and DQN can also be used if requested. It can be switch from train.py file. 
+Read this elaborated explanation and train your PONG Agent! 🎮 🥳
 
-
-# Before the Training
+# Game Screen
 ![10k](https://github.com/RsGoksel/Train-PPO-Agent_PongGame/assets/80707238/efd096bc-f058-4e60-98b9-d71894aaedd6)
 ________________________________________________________________________________________________________________
 
-## 🌟 _**Problem:**_ 🌟 
-The Pong game was discussed for the PPO solution example as problem. A2C and DQN can also be used if requested. It can be switch from train.py file. 
-Read this elaborated explanation and train your PONG Agent! 🎮 🥳
+
 
 ### 💯 _**Reward:**_ 💯
  Reward was the distance between the Ball and Agent. Reward mechanism was:
