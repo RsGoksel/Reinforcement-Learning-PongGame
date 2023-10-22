@@ -12,13 +12,13 @@ ________________________________________________________________________________
 
 
 ### 💯 _**Reward:**_ 💯
- Reward was the distance between the Ball and Agent. Reward mechanism was:
+ Reward has been assigned as the distance between the Ball and Agent. Reward mechanism is:
 * Ball coming out - score, 
 * Ball hitting the agent + score, 
 * Agent coming closer to the ball + score
 
 ### 🔭 _**Observation Space:**_  👁️  
-Observation array was:
+Observation array:
 * Euclidean distance between Agent and ball,
 * Agent_Y_Coord
 * Agent_X_Coord
@@ -27,7 +27,7 @@ Observation array was:
 * Ball_Velocity
   
 ### 💨 _**Action Space:**_ 💨 
-Action space was discrete(3). It means there is certain 3 moves the Agent has to do. *__Rise Up, hold and get down__*.
+Action space is discrete(3). It means there is certain 3 moves the Agent has to do. *__Rise Up, hold and get down__*.
 ________________________________________________________________________________________________________________
 
 # Usage
@@ -52,7 +52,7 @@ $ python test.py
 ```
 
 ## Let's begin to Train!  🐎
-Default step is 100k. You can alter it from Constants.py  
+Default step is 100k. You can alter it from Constants.py file
 (Loading Libraries may take a time about 10 seconds)
 ``` 
 $ python train.py
