@@ -3,7 +3,7 @@
 
 ## 🌟 _**Problem & Environment**_ 🌟 
 The Pong game was discussed for the PPO solution example as problem. A2C and DQN can also be used if requested. It can be switch from train.py file. 
-Read this elaborated explanation and train your PONG Agent! 🎮 🥳
+Read elaborated explanation down below and train your PONG Agent 🎮 
 
 # Game Screen
 ![10k](https://github.com/RsGoksel/Train-PPO-Agent_PongGame/assets/80707238/efd096bc-f058-4e60-98b9-d71894aaedd6)
@@ -11,23 +11,23 @@ ________________________________________________________________________________
 
 
 
-### 💯 _**Reward:**_ 💯
+###  _**Reward:**_ 
  Reward has been assigned as the distance between the Ball and Agent. Reward mechanism is:
 * If the Ball goes out -> - score, 
 * If Agent hits the Ball -> + score, 
-* If Agent gets closer to the ball (y coordinates) -> + score
+* If Agent gets closer to the ball (y coordinate) -> + score
 
-### 🔭 _**Observation Space:**_  👁️  
+###  _**Observation Space:**_    
 Observation array:
-* Euclidean distance between Agent and ball,
+* Euclidean distance between Agent and ball (sqrt(ball_x - Agent_x)**2 - (ball_y - Agent_y)**2),
 * Agent_Y_Coord
 * Agent_X_Coord
 * Ball_Y_Coord
 * Ball_X_Coord
 * Ball_Velocity
   
-### 💨 _**Action Space:**_ 💨 
-Action space is discrete(3). It means there is certain 3 moves the Agent has to do. *__Rise Up, hold and get down__*.
+### _**Action Space:**_  
+Action space is discrete(3). It means there is certain 3 moves the Agent able to do. *__Rise Up, hold and get down__*.
 ________________________________________________________________________________________________________________
 
 # Usage
@@ -51,14 +51,14 @@ $ pip install -r requirements.txt
 $ python test.py
 ```
 
-## Let's begin to Train!  🐎
+## Let's begin to Train!  
 Default step is 100k. You can alter it from Constants.py file
 (Loading Libraries may take a time about 10 seconds)
 ``` 
 $ python train.py
 ```
 
-## Evalute your model 💯
+## Evalute your model 
 ! After the training, your model will be saved in 'models' file. 
 Evaluate your trained model with adding --model parameter to terminal,
 Or use pretrained models Which in __*models*__ folder. 
@@ -71,6 +71,6 @@ $ python evaluate.py --model models/200k
 ```
 
 
-# After the Training 🥳 🦾
+# After the Training 🦾
 ![200k](https://github.com/RsGoksel/Train-PPO-Agent_PongGame/assets/80707238/a4ee5f2f-bceb-433d-a6e7-003a5d6cd83f)
 ________________________________________________________________________________________________________________
